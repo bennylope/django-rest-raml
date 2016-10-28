@@ -61,7 +61,9 @@ setup(
     author_email='tom@tomchristie.com',
     packages=get_packages('rest_framework_raml'),
     package_data=get_package_data('rest_framework_raml'),
-    install_requires=[],
+    install_requires=[
+        'raml-codec>=0.1.2',
+    ],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
